@@ -1,0 +1,72 @@
+.container
+{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    background-color: #f4f4f4;
+
+}
+.header
+{
+    text-align:center;
+}
+.inputs
+{
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+    box-shadow: 0px 0px 3px rgb(15, 15, 5) !important;
+}
+.logintext  h2{
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #333;
+    font-weight: bold;
+}
+.inputs input{
+    width: 80%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+
+
+}
+.inputs input:hover
+{
+    border-color: #a7b300;
+    box-shadow: 0px 0px 5px #a7b300;
+
+}
+.inputs input:focus{
+    border-color: yellow !important;
+    outline:none !important;
+    box-shadow: 0px 0px 3px yellow !important;
+}
+.inputs button
+{
+    width: 50%;
+    padding: 12px;
+    background-color: #e5ff00;
+    color:black;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.inputs button:hover{
+    background-color: #a7b300;
+}
+
+.inputs input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+}
